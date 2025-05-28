@@ -8,10 +8,6 @@ import seaborn as sns
 import warnings
 from datetime import datetime
 
-try:
-    import empyrical as ep
-except ImportError:
-    st.warning("Bitte installiere empyrical via `pip install empyrical` für alle Metriken!")
 
 warnings.simplefilter("ignore", FutureWarning)
 sns.set_theme(style="darkgrid")
